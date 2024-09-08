@@ -1,0 +1,79 @@
+/* Main Section Styling */
+.metrics-section {
+  padding: 40px; /* More space around the section */
+  background-color: #fff7f0; /* Background color for the section */
+  margin-top: 30px;
+}
+
+/* Card Styling */
+.card {
+  border-radius: 10px; /* Smooth rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern look */
+}
+
+.card-body {
+  padding: 30px; /* More space inside the card */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Header and Title Styling */
+h2.text-center {
+  font-weight: bold;
+  font-size: 26px; /* Larger size for header */
+  margin-bottom: 25px;
+}
+
+.card-title {
+  font-weight: 600; /* Bold title */
+  font-size: 20px; /* Slightly larger */
+  margin-bottom: 20px;
+}
+
+/* Metric Details (Orders, Page Views) Styling */
+.metric-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ffebd7; /* Light orange background */
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px; /* Space between the metric items */
+}
+
+/* Icon Styling */
+.metric-icon {
+  font-size: 3rem;  /* Larger icon size for better visibility */
+  color: #ff9f40; /* Color matching the image */
+  margin-right: 15px; /* Space between icon and text */
+}
+
+/* Metric Text Styling */
+.metric-text {
+  font-size: 18px; /* Large text for better readability */
+  font-weight: 500;
+  color: #333;
+}
+
+.metric-value {
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 10px; /* Spacing between label and value */
+  color: #000;
+}
+
+/* Responsive Design for Mobile Devices */
+@media (max-width: 768px) {
+  .metric-item {
+    font-size: 16px; /* Smaller font for mobile */
+  }
+
+  .metric-icon {
+    font-size: 2rem; /* Smaller icon for mobile */
+  }
+
+  .metric-value {
+    font-size: 20px; /* Adjust value size for mobile */
+  }
+}

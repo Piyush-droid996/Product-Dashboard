@@ -1,0 +1,23 @@
+.customization-container {
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .text-center {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-weight: 600;
+  }
+  

@@ -1,0 +1,73 @@
+/* WelcomeMessage CSS */
+
+
+
+.heading {
+    /* margin-bottom: 1.5rem; */
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 84px 6px 0px 8px;
+    padding: 12px 0px 28px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.375rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 1rem;
+    text-align: left; /* Align text to the left */
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.25rem; /* Larger title font */
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    margin-bottom: 1rem;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.card-warning {
+    background-color: #fff9e6; /* Light yellow background */
+}
+
+.card-info {
+    background-color: #e6f2ff; /* Light blue background */
+}
+
+.btn-primary {
+    background-color: #333; /* Black button background */
+    border-color: #333;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #444;
+    border-color: #333;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: #333;
+    border-color: #333;
+}
+
+.btn-secondary:hover {
+    background-color: #f0f0f0;
+    border-color: #333;
+}
+
+@media (max-width: 767.98px) {
+    .card {
+        width: 100%;
+    }
+}
